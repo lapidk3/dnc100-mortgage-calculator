@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>dnc200_mortgage_calculatorTest</RootNamespace>
 
     <IsPackable>false</IsPackable>
@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <Reference Include="dnc100-mortgage-calculator">
-      <HintPath>..\..\src\dnc100-mortgage-calculator\bin\Debug\netcoreapp2.1\dnc100-mortgage-calculator.dll</HintPath>
+      <HintPath>..\..\src\dnc100-mortgage-calculator\bin\Debug\net5.0\dnc100-mortgage-calculator.dll</HintPath>
     </Reference>
   </ItemGroup>
 
